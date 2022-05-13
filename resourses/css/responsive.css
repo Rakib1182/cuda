@@ -1,0 +1,175 @@
+@media  screen and (max-width: 1200px){
+    .row{
+        width: 100%;
+    }
+        .row{
+            width: 100%;
+            padding: 0px 30px;
+        }
+    nav{
+        margin: 0px 25px;
+    }
+    .hero-text-box{
+        width: 1140px;
+    }
+}
+
+@media  screen and (max-width: 1024px){
+   
+    .main-nav{
+        display: none;
+    }
+    .menu-btn span{
+        display: block;
+    }
+    .menu-items ul{
+        display: none;
+    }
+    .hamberger-menu span{
+        display: block;
+        position: absolute;
+    }
+    .hero-text-box{
+        width: 800px;
+    }
+    .grid-service-container{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 45px;
+        font-size: 15px;
+    }
+    .grid-team-container{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        font-size: 12px;
+    }
+    .grid-skil-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media  screen and (max-width: 768px){
+   
+    html,body{
+        font-size: 10px;
+    }
+    .hero-text-box{
+        max-width: 600px;
+    }
+    .grid-service-container,.grid-team-container,.grid-skil-container,.grid-portfolio-container, .grid-about-container{
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+        font-size: 10px;
+    }
+    .grid-service-items .content span{
+        font-size: 180%;
+    }
+    .grid-service-items .content h3{
+        font-size: 250%;
+    }
+    .grid-about-items .img-thumb img{
+        float: none;
+    }
+    .grid-about-items .info p{
+        text-align: center;
+        margin-left: 0;
+        font-size: 150%;
+    }
+    .grid-about-items .info h4{
+        text-align: center;
+        margin-left: 0;
+        font-size: 180%;
+    }
+    .grid-portfolio-items .img-thumb img{
+        width: 70%;
+    }
+    .grid-about-items .description p{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+    }
+    .grid-about-items .img-thumb img{
+        width: 20%;
+    }
+    .section-width{
+        width: 600px;
+    }
+    .footer ul li a{
+        margin-left: 20px;
+    }
+}
+@media  screen and (max-width: 630px){
+    .hero-text-box{
+        max-width: 400px;
+    }
+}
+@media  screen and (max-width: 480px){
+    html,body{
+        font-size: 10px;
+    }
+    .text-box h1{
+        font-size: 180%;
+        display: block;
+        width: 500px;
+        margin: auto;
+    }
+    .service-title p{
+        padding: 0px 5px;
+    }
+    .grid-service-container,.grid-team-container{
+     
+        grid-gap: 25px;
+    }
+    .grid-service-items .content span{
+        font-size: 180%;
+    }
+    .grid-service-items .content h3{
+        font-size: 250%;
+    }
+    .grid-about-items .description{
+        text-align: center;
+    }
+    .section-width{
+        width: 400px;
+    }
+    .messege-btn button{
+        margin: 0;
+    }
+    .footer ul li a{
+        font-size: 180%;
+        margin-left: 10px;
+        color: #fff;
+        transition: .3s;
+    }
+}
+@media  screen and (max-width: 388px){
+    .icon ul li a{
+        padding: 5px 7px;
+    }
+    .section-width{
+        width: 300px;
+    }
+}
+@media  screen and (max-width: 368px){
+    .hero-text-box{
+        max-width: 250px;
+    }
+    .hero-text-box h1{
+        font-size: 300%;
+    }
+    .section-width{
+        width: 300px;
+    }
+    #team .row{
+        padding-top: 10px;
+    }
+    #team .row .team-title{
+        text-align: left;
+    }
+    .icon ul li a{
+        padding: 5px 6px;
+    }
+    .section-width{
+        width: 300px;
+    }
+}
